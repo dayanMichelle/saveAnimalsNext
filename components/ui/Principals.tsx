@@ -45,7 +45,7 @@ const Principals = () => {
         <CardInfo
           title='Pollution'
           subtitle='Stream the Acme event'
-          img='https://images.pexels.com/photos/10622724/pexels-photo-10622724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+          img='https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
           moreInfo='Industrial, agricultural, livestock and urban activities contribute substantially to the
           air, water and soil pollution.
           Some pollutants have weakened the ozone layer that protects living beings from radiation
