@@ -1,5 +1,5 @@
 import React from "react"
-import { Button, Grid, Input, NextUIProvider, Spacer, Text, useTheme } from '@nextui-org/react';
+import { Button, Grid, Image, Input, NextUIProvider, Spacer, Text, useTheme } from '@nextui-org/react';
 
 export const Navbar = () => {
   const { theme, isDark } = useTheme()
@@ -11,9 +11,10 @@ export const Navbar = () => {
       }}>
 
         <Grid xs={6}>
+          
           <Text
             h1
-            size={20}
+            size={30}
             transform="uppercase"
             css={{
               textGradient: '45deg, $yellow500 -20%, $red500 100%',
@@ -22,17 +23,12 @@ export const Navbar = () => {
             }}
             h3
           >
-            Save animals
+          🐼 Save animals
           </Text>
           <Grid xs={6}>
             <Button color='gradient' shadow ><Text weight='medium'>Help</Text></Button>
           </Grid>
         </Grid>
-
-
-
-
-
 
       </Grid.Container>
 
