@@ -10,14 +10,12 @@ const AnimalCard: FC<Props> = ({ animals }) => {
 
   return (
     <>
-      <Grid>
+      <Grid  xs={12} sm={4} md={3} xl={1}   key={animals.scientific_name}>
         <Card
-          key={animals.scientific_name}
-
           clickable
           shadow={true}
           hoverable
-          css={{ padding: '20px',  }}
+          css={{ padding: '20px' }}
         >
           <Card.Body>
 

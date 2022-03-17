@@ -2,16 +2,21 @@ import React, { FC } from 'react'
 import { Card, Col, Grid, Text } from '@nextui-org/react'
 
 interface Props {
-  title:string,
-  subtitle:string,
-  img:string,
-  moreInfo:string
+  title: string,
+  subtitle: string,
+  img: string,
+  moreInfo: string
 }
 
-const CardInfo:FC<Props> = ({title,subtitle,img,moreInfo}) => {
+const CardInfo: FC<Props> = ({ title, subtitle, img, moreInfo }) => {
   return (
     <>
-    <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={4} md={4} xl={4} 
+         css={{
+           margin:'0 auto'
+         }}
+         >
+
           <Card
             cover
             animated={true}
@@ -70,11 +75,12 @@ const CardInfo:FC<Props> = ({title,subtitle,img,moreInfo}) => {
                 zIndex: 1
               }}
             >
-             {moreInfo}
+              {moreInfo}
             </Card.Footer>
           </Card>
         </Grid>
-        </>
+
+    </>
   )
 }
 

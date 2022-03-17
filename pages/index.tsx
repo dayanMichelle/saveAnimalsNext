@@ -17,7 +17,7 @@ interface Props {
       <MainPage>
         
         <Principals />
-        <Grid.Container gap={4}  color="white" css={{ m: 0 }} justify="center">
+        <Grid.Container gap={2} justify='flex-start'>
           {
           animals.map((e)=>(
             <AnimalCard key={e.scientific_name} animals={e}>

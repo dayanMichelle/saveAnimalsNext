@@ -19,7 +19,7 @@ const Principals = () => {
         }}
       > main reasons for extinction </Text>
 
-      <Grid.Container gap={2} justify="center">
+      <Grid.Container gap={2} justify="flex-start">
 
         <CardInfo
           title='habitat loss'
