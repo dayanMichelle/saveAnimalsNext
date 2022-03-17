@@ -1,16 +1,19 @@
 import { Card, Container, Row, Text } from '@nextui-org/react'
-import React from 'react'
+
 
 const About = () => {
     return (
         <>
-            <Container sm>
+            <Container sm 
+            css={{
+                marginTop:'50px'
+            }}
+            >
                 <Card color="primary">
                     <Row justify="center" align="center">
                         <Text h6 size={20} color="white" css={{ m: 0 }}>
-                            These are only the first 100 animals in danger of extinction.
-                            Saving animals is in our hearts. Follow our new goals and
-                            help us save animals. ☠️
+                        These are just the top 100 endangered species. Saving 
+                        the planet is in our hearts. Follow our new goals and help us. ☠️
                         </Text>
                         
                     </Row>

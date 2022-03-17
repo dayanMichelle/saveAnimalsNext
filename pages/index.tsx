@@ -7,7 +7,6 @@ import { Result,AnimalsResponse } from '../interfaces';
 import AnimalCard from '../components/animalsCards';
 import Principals from '../components/ui/Principals';
 
-
 interface Props {
   animals:Result[];
 }

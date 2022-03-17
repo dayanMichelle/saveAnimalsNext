@@ -5,7 +5,7 @@ export const Navbar = () => {
   const { theme, isDark } = useTheme()
   return (
     <>
-      <Grid.Container gap={3}>
+      <Grid.Container gap={4} justify="center">
         <div style={{
           display: "flex",
           width: '100%',
@@ -14,16 +14,27 @@ export const Navbar = () => {
           padding: '0 20px',
           justifyContent: 'start',
         }}>
-          <Grid>
-            <Text h1 transform="uppercase" css={{
-              textGradient: '45deg, $yellow500 -20%, $red500 100%'
-            }} h3>Save animals </Text>
+          <Grid  xs={12} sm={4}>
+            <Text 
+            h1 
+            size={20} 
+            transform="uppercase" 
+            css={{
+              textGradient: '45deg, $yellow500 -20%, $red500 100%',
+              marginRight:'50px'
+            }} 
+            h3
+            >
+              Save animals 
+            </Text>
+            
           </Grid>
 
-          <Grid>
-            <Button color='gradient' shadow ><Text>Ayudar</Text></Button>
-          </Grid>
+            <Spacer x={35}></Spacer>
 
+          <Grid  xs={12} sm={4}>
+            <Button color='gradient' shadow ><Text weight='medium'>Help</Text></Button>
+          </Grid>
 
         </div>
       </Grid.Container>
