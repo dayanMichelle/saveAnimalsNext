@@ -5,31 +5,52 @@ export const Navbar = () => {
   const { theme, isDark } = useTheme()
   return (
     <>
-      <Grid.Container justify="space-between" css={{
-        height:'100px',
-        marginTop:'10px'
+      <Grid.Container justify="flex-start" css={{
+        height: '100px',
+        width: '100%',
+        margin: '0 auto'
       }}>
 
-        <Grid xs={6}>
-          
+        <Grid 
+        xs={6} >
+
           <Text
             h1
-            size={30}
+            size={25}
             transform="uppercase"
             css={{
               textGradient: '45deg, $yellow500 -20%, $red500 100%',
-              marginRight:'50px',
-              marginLeft:'50px'
+              margin:'10px'
             }}
             h3
           >
-          🐼 Save animals
+            🐼 ᦓꪖꪜ꠸ꪀᧁ
           </Text>
-          <Grid xs={6}>
-            <Button color='gradient' shadow ><Text weight='medium'>Help</Text></Button>
-          </Grid>
+
         </Grid>
 
+      
+        <Grid 
+        xs={6} 
+         css={{
+           justifyContent:'end'
+         }}
+        >
+          <Button 
+         auto 
+         color="error"
+         css={
+           {
+             padding:'20px 40px',
+             margin:'10px'
+           }
+         }
+          ><Text 
+                    weight='medium'
+                    >Help
+                    </Text>
+          </Button>
+        </Grid>
       </Grid.Container>
 
 

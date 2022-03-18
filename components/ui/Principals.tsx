@@ -15,7 +15,9 @@ const Principals = () => {
         css={{
           textGradient: '45deg, $blue500 -20%, $pink500 50%',
           textAlign: 'center',
-          marginTop: '-50px'
+          marginTop: '-50px',
+          fontFamily: 'Raleway sans-serif',
+          fontWeight:400
         }}
       > main reasons for extinction </Text>
 

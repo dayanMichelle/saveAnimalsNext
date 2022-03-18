@@ -10,7 +10,14 @@ const About = () => {
             }}
             >
                 <Card color="primary">
-                    <Row justify="center" align="center">
+                    <Row 
+                    justify="center" 
+                    align="center"
+                    css={{
+                        fontFamily: 'Raleway sans-serif',
+                        fontWeight:100
+                    }}
+                    >
                         <Text h6 size={20} color="white" css={{ m: 0 }}>
                         These are just the top 100 endangered species. Saving 
                         the planet is in our hearts. Follow our new goals and help us. ☠️

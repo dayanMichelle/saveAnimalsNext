@@ -1,17 +1,25 @@
 import React, { FC } from 'react'
 import { Result } from '../../interfaces'
 import { Card, Grid, Text } from '@nextui-org/react';
+import { useRouter } from 'next/router';
 
 
 interface Props {
   animals: Result,
 }
+
 const AnimalCard: FC<Props> = ({ animals }) => {
 
+  
+  const handelclick = (animal:string)=>{
+     window.open(`https://www.google.com/search?q=${animal}`)
+  
+  }
   return (
     <>
       <Grid  xs={12} sm={4} md={3} xl={1}   key={animals.scientific_name}>
         <Card
+        onClick={()=>{handelclick(animals.scientific_name)}}
           clickable
           shadow={true}
           hoverable
