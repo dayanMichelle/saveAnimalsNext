@@ -60,7 +60,7 @@ const index = () => {
                         <Radio.Group>
                             {
                                 listAcctions.map(e => (
-                                    <Radio
+                                    <Radio key={e.id}
                                         value={e.id}
                                         color="error"
                                     >
