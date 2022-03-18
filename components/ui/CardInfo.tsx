@@ -47,7 +47,7 @@ const CardInfo: FC<Props> = ({ title, subtitle, img, moreInfo }) => {
                 >
                   {title}
                 </Text>
-                <Text color="white" size={15} weight='bold'
+                <Text color="white" size={25} weight='bold'
                   css={{
                     textAlign: 'center'
                   }}

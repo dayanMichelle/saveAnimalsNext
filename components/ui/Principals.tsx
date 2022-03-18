@@ -25,7 +25,7 @@ const Principals = () => {
 
         <CardInfo
           title='habitat loss'
-          subtitle='Stream the Acme event'
+          subtitle='💔'
           img='https://images.pexels.com/photos/6249809/pexels-photo-6249809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
           moreInfo='The loss and deterioration of habitats is the main cause of biodiversity loss.
         By transforming jungles, forests, thickets, grasslands, mangroves, lagoons,
@@ -35,7 +35,7 @@ const Principals = () => {
 
         <CardInfo
           title='overexploitation'
-          subtitle='Stream the Acme event'
+          subtitle='🌲'
           img='https://images.pexels.com/photos/10622724/pexels-photo-10622724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
           moreInfo='Overexploitation is the removal of individuals from a population at a rate greater 
           than their reproduction. When this happens the population decreases. This has been the history 
@@ -46,7 +46,7 @@ const Principals = () => {
 
         <CardInfo
           title='Pollution'
-          subtitle='Stream the Acme event'
+          subtitle='🧪'
           img='https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
           moreInfo='Industrial, agricultural, livestock and urban activities contribute substantially to the
           air, water and soil pollution.
