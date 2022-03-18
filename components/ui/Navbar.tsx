@@ -1,8 +1,9 @@
 import React from "react"
 import { Button, Grid, Image, Input, NextUIProvider, Spacer, Text, useTheme } from '@nextui-org/react';
+import { useRouter } from 'next/router';
 
 export const Navbar = () => {
-  const { theme, isDark } = useTheme()
+  const router = useRouter()
   return (
     <>
       <Grid.Container justify="flex-start" css={{
@@ -46,9 +47,15 @@ export const Navbar = () => {
            }
          }
           ><Text 
-                    weight='medium'
-                    >Help
-                    </Text>
+            weight='medium'
+            onClick={(e)=>{
+              e.preventDefault();
+              router.push(__dirname + '/help')
+            }}
+            >
+              
+              Help
+          </Text>
           </Button>
         </Grid>
       </Grid.Container>
