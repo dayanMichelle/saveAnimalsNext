@@ -21,14 +21,15 @@ const index = () => {
                                         transform="uppercase"
                                         color="#ffffffAA"
                                     >
-                                        New
+                                        The planet will
                                     </Text>
                                     <Text
                                         h3
                                         color="error"
                                         size={40}
+                                        transform='uppercase'
                                     >
-                                        Acme camera
+                                        thank you
                                     </Text>
                                 </Col></Text>
                         </Card.Header>
@@ -43,8 +44,8 @@ const index = () => {
                         />
                         <Card.Footer>
                             <Row justify="center" align="center">
-                                <Text h6 size={15} color="white" css={{ m: 0 }}>
-                                    NextUI gives you the best developer experience with all the features you need for building beautiful and modern websites and applications.
+                                <Text h6 size={15} color="white" weight='bold' css={{ m: 0 }}>
+                                Select one and commit to doing it for a week. We will send you an email for your commitment!
                                 </Text>
                             </Row>
                         </Card.Footer>

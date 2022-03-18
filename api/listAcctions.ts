@@ -1,13 +1,13 @@
 export const listAcctions = [
 {
     id:1,
-    name:'Evita comprar agua o líquidos embotellados',
+    name:'Avoid buying bottled water or liquids',
     description: ''
 },
 
 {
     id:3,
-    name:'Lleva tu propio vaso reutilizable a las cafeterías',
+    name:'Bring your own reusable cup to coffee shops',
     description: ''
 },
 
@@ -15,78 +15,78 @@ export const listAcctions = [
 
 {
     id:5,
-    name:'Practica el turismo sostenible',
+    name:'Practice sustainable tourism',
     description: ''
 },
 
 {
     id:7,
-    name:'Infórmate',
-    description: 'Estar informado te permite saber qué hacer para proteger el medio ambiente.'
+    name:'Find out',
+    description: 'Being informed allows you to know what to do to protect the environment.'
 },
 
 {
     id:8,
-    name:'Compra frutas y verduras orgánicas',
-    description: 'Los fertilizantes y pesticidas suelen ser derivados del petróleo'
+    name:'Buy organic fruits and vegetables',
+    description: 'Fertilizers and pesticides are usually derived from petroleum.'
 },
 {
     id:6,
-    name:'Usa bolsas ecológicas',
+    name:'Use eco bags',
     description: ''
 },
 {
     id:9,
-    name:'Comprar productos de belleza sólidos',
-    description: 'No contribuirás al plástico de un solo uso!'
+    name:'Buy solid beauty products',
+    description: 'You will not contribute to single-use plastic!'
 },
 {
     id:4,
-    name:'Modera el uso de la calefacción y del aire acondicionado',
+    name:'Moderate the use of heating and air conditioning',
     description: ''
 },
 {
     id:10,
-    name:'Aprovecha la energía solar',
-    description: 'No sólo como luz natural, también como fuente para recargar tus aparatos, hay cargadores solares para muchas cosas como celulares, relojes, calculadoras, etc. ¡Busca el tuyo!'
+    name:'Take advantage of solar energy',
+    description: 'Not only as natural light, but also as a source to recharge your devices, there are solar chargers for many things such as cell phones, watches, etc. Find yours!'
 },
 
 
 {
     id:11,
-    name:'No desperdicies energía',
-    description: 'Apaga las luces que no utilices y desconecta los aparatos eléctricos.'
+    name:'Dont waste energy',
+    description: 'Turn off lights you dont use and unplug electrical appliances.'
 },
 {
     id:12,
-    name:'Cambia definitivamente los focos de bombilla por focos ahorradores',
+    name:'Definitively change the light bulbs for saving lights',
     description: ''
 },
 {
     id:13,
-    name:'Elige productos que no estén envasados en plástico',
-    description: 'Recicla o reutiliza los envases'
+    name:'Choose products that are not packaged in plastic',
+    description: 'Recycle or reuse packaging'
 },
 
 {
     id:14,
-    name:'Sé un consumidor responsable',
-    description: 'Consume sólo lo que necesitas y agota la vida útil de los productos, en otras palabras: reduce, reutiliza y recicla.'
+    name:'Be a responsible consumer',
+    description: 'Consume only what you need and exhaust the useful life of products, in other words: reduce, reuse and recycle.'
 },
 {
     id:15,
-    name:'Cambia el centro comercial por el mercado',
-    description: 'Estarás comprando productos más frescos y seguros, sin transgénicos'
+    name:'Swap the mall for the market',
+    description: 'You will be buying fresher and safer products, without transgenics.'
 },
 {
     id:2,
-    name:'Opta por cubiertos de madera, bambú o acero',
+    name:'Opt for wooden, bamboo or steel cutlery',
     description: ''
 },
 
 {
     id:16,
-    name:'Convierte tu basura orgánica en composta',
+    name:'Turn your organic waste into compost',
     description: ''
 },
 
