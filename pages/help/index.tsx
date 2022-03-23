@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { listAcctions } from '../../api'
 import Email from '../../components/Email';
 
-const index = () => {
+const IndexPage = () => {
     const [options,setOption] = useState('');
 
     const handleOption = (name) => 
@@ -95,4 +95,4 @@ const index = () => {
     )
 }
 
-export default index
+export default IndexPage
