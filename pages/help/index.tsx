@@ -1,7 +1,15 @@
 import { Radio, Grid, Card, Text, Col, Row } from '@nextui-org/react';
+import { useState } from 'react';
 import { listAcctions } from '../../api'
+import Email from '../../components/Email';
 
 const index = () => {
+    const [options,setOption] = useState('');
+
+    const handleOption = (name) => 
+    {
+        setOption(name)
+    }
     return (
         <>
 
@@ -29,9 +37,11 @@ const index = () => {
                                         size={40}
                                         transform='uppercase'
                                     >
-                                        thank you
+                                        thank you 
                                     </Text>
-                                </Col></Text>
+
+                                  
+                                </Col></Text> <Email option = {options}></Email>
                         </Card.Header>
                         <Card.Image
                             css={{
@@ -44,8 +54,9 @@ const index = () => {
                         />
                         <Card.Footer>
                             <Row justify="center" align="center">
-                                <Text h6 size={15} color="white" weight='bold' css={{ m: 0 }}>
-                                Select one and commit to doing it for a week. We will send you an email for your commitment!
+                                <Text h6 size={14} color="white" weight='bold' css={{ m: 0 }}>
+                                Select one and commit to doing it for a week. We will send you an email for your commitment! 
+                                Enter your email and we will send you your challenge
                                 </Text>
                             </Row>
                         </Card.Footer>
@@ -64,6 +75,8 @@ const index = () => {
                                     <Radio key={e.id}
                                         value={e.id}
                                         color="error"
+                                        onChange={()=>{handleOption(e.name)}}
+                                        
                                     >
                                         {e.name} <Radio.Description css={{ color: 'black' }}>{e.description}</Radio.Description>
                                     </Radio>
@@ -75,6 +88,7 @@ const index = () => {
                     </Card>
 
                 </Grid>
+             
             </Grid.Container>
 
         </>

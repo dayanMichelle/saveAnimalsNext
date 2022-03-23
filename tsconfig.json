@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
+      "useUnknownInCatchVariables": false,
       "target": "es5",
       "lib": ["dom", "dom.iterable", "esnext"],
       "allowJs": true,
       "skipLibCheck": true,
-      "strict": true,
+      "strict": false,
       "forceConsistentCasingInFileNames": true,
       "noEmit": true,
       "esModuleInterop": true,
@@ -13,7 +14,9 @@
       "resolveJsonModule": true,
       "isolatedModules": true,
       "jsx": "preserve",
-      "incremental": true
+      "incremental": true,
+      "noImplicitAny": false
+      
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/harry/[id].tsx"],
     "exclude": ["node_modules"]
