@@ -1,5 +1,5 @@
-import { Input, Text } from '@nextui-org/react'
-import React from 'react'
+import { Input, Text,Button } from '@nextui-org/react'
+import React, { useState } from 'react'
 
 
 interface IfcObjectValues {
@@ -11,8 +11,18 @@ interface MyInterface {
     [x: string]: IfcObjectValues, 
   }
 
-
 const Email = ({option}) => {
+    const [emailSend, setEmail] = useState('');
+
+    const handleChange = (e) => {
+        setEmail(e.target.value);
+    }
+    const wait = () => {
+        setTimeout(() => {
+            setEmail('')
+        }, 1000);
+    }
+
 
     const  handleSubmit = async (e:any) =>{
         e.preventDefault();
@@ -37,10 +47,13 @@ const Email = ({option}) => {
         <>
             <form method='post' onSubmit={handleSubmit}
             style={{
-                marginLeft:'50px'
+                marginLeft:'50px',
+                display:'flex',
+                gap:'10px',
+                alignItems:'center',
             }}>
-                <Input name='email' bordered labelPlaceholder="Enter your email " color="error" />
-                
+                <Input onChange={handleChange}  type='text' value={emailSend}  bordered labelPlaceholder="Enter your email " color="error" />
+                <Button type='submit' name='email' value={emailSend} shadow onClick={wait} size='sm' color="gradient" > S E N D</Button>
 
             </form>
 

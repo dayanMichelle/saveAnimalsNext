@@ -6,7 +6,7 @@ export default (req,res)=>{
   const body = JSON.parse(req.body)
   const data = {
     to:`${body.email}`,
-    from:'dayan.arango@voxcom.cl',
+    from:'developer@dayanarango.com',
     subject: 'New web from Saving!',
     text: 'and easy to do anywhere, even with Node.js',
     html: `<h1 style="color:#D7623F">¡THE PLANET WILL THANK YOU! 🐼</h1>
